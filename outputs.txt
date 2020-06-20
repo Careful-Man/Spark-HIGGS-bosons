@@ -1,0 +1,108 @@
+
+	S I N G L E   N O D E   R U N S
+
+parameters:     popSize = 35
+	        crossover_prob = 1
+        	mutation_prob = 0.4
+	        nbGen = 5
+
+
+Run Started
+
+Learning time : 4049.2477190494537 seconds
+and_(or_(True, True), or_(True, False))
+fitness of best individual against total training set :5829123.0/11000000.0=0.5299202727272727
+5829123.000     5170877.000
+0.000   0.000
+accuracy =0.5299202727272727, TPR=1.0, FPR=1.0
+fitness of best individual against test set :5829123.0/11000000.0=0.5299202727272727
+5829123.000     5170877.000
+0.000   0.000
+accuracy =0.5299202727272727, TPR=1.0, FPR=1.0
+
+===================================================================================================
+
+Run Started
+
+Learning time : 4066.411477088928 seconds
+lt(mul(IN1, IN26), protectedDiv(IN22, IN25))
+fitness of best individual against total training set :5909148.0/11000000.0=0.5371952727272727
+5037540.000     4299269.000
+791583.000      871608.000
+accuracy =0.5371952727272727, TPR=0.8642020420567553, FPR=0.8314390382907967
+fitness of best individual against test set :5909148.0/11000000.0=0.5371952727272727
+5037540.000     4299269.000
+791583.000      871608.000
+accuracy =0.5371952727272727, TPR=0.8642020420567553, FPR=0.8314390382907967
+
+===================================================================================================
+
+Run Started
+
+Learning time : 4170.616836547852 seconds
+not_(False)
+fitness of best individual against total training set :5829123.0/11000000.0=0.5299202727272727
+5829123.000     5170877.000
+0.000   0.000
+accuracy =0.5299202727272727, TPR=1.0, FPR=1.0
+fitness of best individual against test set :5829123.0/11000000.0=0.5299202727272727
+5829123.000     5170877.000
+0.000   0.000
+accuracy =0.5299202727272727, TPR=1.0, FPR=1.0
+
+
+
+###################################################################################################
+
+
+	C L U S T E R   R U N S
+
+parameters:     popSize = 35
+(same)	        crossover_prob = 1
+        	mutation_prob = 0.4
+	        nbGen = 5
+
+
+Run Started
+
+Learning time : 1090.823971271515 seconds
+or_(not_(False), eq(IN13, IN24))
+fitness of best individual against total training set :5829123.0/11000000.0=0.5299202727272727
+5829123.000     5170877.000
+0.000   0.000
+accuracy =0.5299202727272727, TPR=1.0, FPR=1.0
+fitness of best individual against test set :5829123.0/11000000.0=0.5299202727272727
+5829123.000     5170877.000
+0.000   0.000
+accuracy =0.5299202727272727, TPR=1.0, FPR=1.0
+
+===================================================================================================
+
+Run Started
+
+Learning time : 1129.3250312805176 seconds
+lt(if_then_else(True, IN27, IN1), IN26)
+fitness of best individual against total training set :6385439.0/11000000.0=0.5804944545454546
+4802097.000     3587535.000
+1027026.000     1583342.000
+accuracy =0.5804944545454546, TPR=0.8238112319812089, FPR=0.6937962361123655
+fitness of best individual against test set :6385439.0/11000000.0=0.5804944545454546
+4802097.000     3587535.000
+1027026.000     1583342.000
+accuracy =0.5804944545454546, TPR=0.8238112319812089, FPR=0.6937962361123655
+
+===================================================================================================
+
+
+Run Started
+
+Learning time : 1099.629707813263 seconds
+lt(IN27, if_then_else(False, IN7, IN26))
+fitness of best individual against total training set :6385439.0/11000000.0=0.5804944545454546
+4802097.000     3587535.000
+1027026.000     1583342.000
+accuracy =0.5804944545454546, TPR=0.8238112319812089, FPR=0.6937962361123655
+fitness of best individual against test set :6385439.0/11000000.0=0.5804944545454546
+4802097.000     3587535.000
+1027026.000     1583342.000
+accuracy =0.5804944545454546, TPR=0.8238112319812089, FPR=0.6937962361123655
